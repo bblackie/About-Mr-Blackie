@@ -1,0 +1,76 @@
+html {
+  background: blanchedAlmond url(/images/textures/color1a.png);
+  font: normal 15px Poppins, sans-serif;
+    color: darkRed;
+}
+
+body {
+ width: 400px;
+ margin: 0 auto 0 auto;
+}
+
+h1,
+h3 {
+  color: firebrick;
+}
+
+h1 {
+  font: bold 40px Righteous, cursive;
+  margin: 10px;
+  /*text-shadow: 1px 1px 4px lightCoral;*/
+  text-shadow: 0px 1px 0px darkGray, 0px 2px 0px gray, 0px 3px 0px lightslategray, 0px 4px 0px dimGray, 0px 5px 0px darkslategray, 0px 6px 5px black;
+}
+
+h3 {
+  font: bold 16px Poppins, sans-serif;
+  margin: 10px 10px 8px 10px;
+}
+ 
+a {
+  color: steelBlue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: dodgerBlue;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: darkRed;
+}
+
+img {
+  border: 4px solid white;
+  height: 230px;
+  margin: 10px 20px 10px 0px;
+  box-shadow: 5px 5px 10px -3px lightCoral;
+}
+
+p {
+  margin: 10px;
+  text-align: justify;
+}
+
+ul {
+  list-style-type: square;
+  list-style-image: url(/images/icons/icon18.png);
+}
+
+header {
+  background-color: whiteSmoke; 
+  border-color: darkSlateGray;
+  border-style: solid;
+  border-width: 3px;
+  text-align: center;
+  margin: 20px 10px;
+}
+
+footer {
+  background-color: whiteSmoke; 
+  border-color: darkSlateGray;
+  border-style: solid;
+  border-width: 2px;
+  text-align: center;
+  margin: 20px 10px;
+}
